@@ -202,3 +202,93 @@ div.redes-sociais a img:hover {
     filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
 }
 
+@media screen and (max-width: 900px) {
+    body {
+        background-image: url(images/bg-header-mobile.png);
+        background-position: top center;
+        background-size: contain;
+    }
+
+    header.cabeçalho {
+        width: 80%;
+    }
+
+    div.links-dowload  a{
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+        padding: 20px 30px;
+        border-radius: 30px;
+        font-size: 20px;
+    }
+
+    div.Snippets {
+        width: 80%;
+    }
+
+    section.logo-descrição {
+        flex-direction: column;
+        align-items: center;
+  
+    }
+
+    div.logo-mac, section.logo-IOS {
+        margin: auto;
+        width: 80%;
+    
+    }
+
+    div.logo-mac img, section.logo-IOS img {
+        width: 100%;
+    }
+
+    div.desc-mac {
+        width: 80%;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    div.acesso, div.turbinar-trabalho, section.IOS-and-mac {
+        width: 80%;
+    }
+
+    section.desc-opções {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.opções {
+        width: 80%;
+        margin-top: 40px;
+    }
+
+    section.logo-empresas {
+        width: 80%;
+        height: 500px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    section.logo-empresas img {
+        width: 40%;
+    }
+
+    footer.rodapé {
+        flex-direction: column;
+        height: auto;
+    }
+
+    footer img {
+        margin: 50px auto;
+    }
+
+    div.links-rodapé {
+        width: 80%;
+        margin: auto;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+}
+
