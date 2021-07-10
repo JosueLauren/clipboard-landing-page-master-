@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+:root {
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body {
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+h1 {
+    color: hsl(210, 10%, 33%);
+}
+
+header.cabeçalho {
+    width: 50%;
+    margin: 100px auto 150px auto;
+    text-align: center;
+}
+
+div.logo, div.desc-cabeçalho {
+    margin-bottom: 50px;
+}
+
+div.desc-cabeçalho h1 {
+    margin-bottom: 20px;
+}
+
+div.links-dowload  a{
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0px 2px rgba(0,0,0,0.5);
+}
+
+a.IOS {
+    background-color: var(--Strong-Cyan);
+    margin-right: 10px;
+}
+
+a.Mac {
+    background-color: var(--Light-Blue);
+}
+
+a.IOS:hover {
+  background-color: hsla(171, 66%, 44%, 0.8);  
+}
+
+a.Mac:hover {
+   background-color: hsla(233, 100%, 69%, 0.8); 
+}
+
+div.Snippets {
+    width: 50%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+div.Snippets h1 {
+    margin-bottom: 20px;
+}
+
+section.logo-descrição {
+    width: 100%;
+    display: flex;
+}
+
+div.logo-mac {
+    width: 60%;
+    margin-left: -35px;
+}
+
+div.desc-mac {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25%;
+    margin-left: 40px;
+    
+}
+
+div.acesso {
+    width: 50%;
+    height: auto;
+    margin: 150px auto 100px auto;
+    text-align: center;
+}
+
+div.acesso h1 {
+    margin-bottom: 20px;
+}
+
+section.logo-IOS {
+    width: 65%;
+    margin: auto;
+}
+
+div.turbinar-trabalho {
+    width: 50%;
+    margin: 80px auto 70px auto;
+    text-align: center;
+}
+
+div.turbinar-trabalho h1 {
+    margin-bottom: 20px;
+}
+
+section.desc-opções {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+div.opções {
+    width: 28%;
+    text-align: center;
+}
+
+div.opções h1 {
+    margin: 30px 0px 20px 0px;
+}
+
+section.logo-empresas {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 150px auto;
+}
+
+section.IOS-and-mac {
+    width: 50%;
+    margin: 0px auto 50px auto;
+    text-align: center;
+}
+
+section.IOS-and-mac h1 {
+    margin-bottom: 20px;
+}
+
+section.IOS-and-mac p {
+    margin-bottom: 50px;
+}
+
+footer.rodapé {
+    height: 150px;
+    width: 100%;
+    margin: 150px auto 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsla(201, 11%, 66%, 0.2);
+}
+
+div.links-rodapé {
+    width: 40%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+div.links-rodapé a {
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+
+}
+
+div.links-rodapé a:hover {
+    color: var(--Strong-Cyan);
+}
+
+
+div.redes-sociais a {
+    margin-right: 20px;
+}
+
+div.redes-sociais a img:hover {
+    filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+}
+
